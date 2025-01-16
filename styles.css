@@ -3,12 +3,12 @@
 	margin: 20px;
 	font-family: sans-serif;
 }
-h3::before{
+#container::before{
 	content: "Before Element ";
 	color: #f00;
 	font: 20px;
 }
-h3::after{
+#container::after{
 	content: " After Element";
 	color: #f00;
 	font: 20px;
